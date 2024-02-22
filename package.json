@@ -1,0 +1,17 @@
+{
+  "name": "license-adder",
+  "version": "1.0.0",
+  "description": "Script for adding a license to all repos in an organization",
+  "main": "license-adder.js",
+  "type": "module",
+  "scripts": {
+    "test": "node license-adder.js getRepos"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "octokit": "^3.1.2",
+    "simple-git": "^3.22.0"
+  }
+}
